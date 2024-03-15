@@ -14,13 +14,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(135deg, #ffffff, #f0f0f0);
 }
 
 .btns {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%; /* O ajusta la altura según sea necesario */
+  height: 100%;
+  margin-top: 20px; /* PROBANDO */
 }
 
 #error-page .content {
