@@ -29,9 +29,6 @@ const Home = () => {
 
   let iniciales = inicialNombre+inicialApellido
 
-  console.log(iniciales)
-
-
   return (
     <>
       <div className={`homeWrapper ${homeCharge}`}>
