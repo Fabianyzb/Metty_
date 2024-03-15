@@ -97,7 +97,13 @@ const Login = () => {
 
           <div className="actionsLoginWrapper">
             <div className="createAccountMessage error" style={{ opacity: opacity }}>
-              <Ban /> <p className="btn-text-s mb-0">{errorType === "credenciales" ? "Credenciales incorrectas. Si no tienes cuenta, regístrate." : errorType === "servidor" ? "Hubo un error. Inténtalo más tarde." : ""}</p>
+              <Ban />
+              <p className="btn-text-s mb-0">
+                {errorType === "credenciales" ? "Credenciales incorrectas. Si no tienes cuenta, "
+                  : errorType === "servidor" ?
+                    "Hubo un error. Inténtalo más tarde." : ""}
+                <Link to="/registro">regístrate</Link>
+              </p>
             </div>
             <Link to={""}>
               <Button btnText={"Iniciar sesión"} btnOnClick={validarDatosDeCuenta} className="btn-primary btn-l" />
