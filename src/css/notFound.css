@@ -5,17 +5,6 @@
   box-sizing: border-box;
 }
 
-#error-page {
-  position: absolute;
-  top: 10%;
-  left: 15%;
-  right: 15%;
-  bottom: 10%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .btns {
   display: flex;
   justify-content: center;
