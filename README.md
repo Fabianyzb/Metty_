@@ -1,8 +1,8 @@
-# Proyecto final 4geeks
+# Proyecto final
 
 **Developers**
 
-Marcela Zenteno | Rodrigo Barrera | Fabian Yáñez | Rodrigo Solís
+Fabian Yáñez | Rodrigo Solís
 
 ****
 
